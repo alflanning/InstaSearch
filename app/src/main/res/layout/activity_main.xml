@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:text="Connect"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/btnConnect"
+        android:layout_margin="40dip"/>
+
+    <LinearLayout
+        android:id="@+id/llAfterLoginView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btnGetAllImages"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:text="All Images" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Not connected"
+        android:layout_marginLeft="15dip"
+        android:layout_marginBottom="20dip"/>
+
+</LinearLayout>
