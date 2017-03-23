@@ -42,10 +42,7 @@ public class InstagramApp {
     private static int WHAT_ERROR = 1;
     private static int WHAT_FETCH_INFO = 2;
 
-    /**
-     * Callback url, as set in 'Manage OAuth Costumers' page
-     * (https://developer.github.com/)
-     */
+    
 
     public static String mCallbackUrl = "";
     private static final String AUTH_URL = "https://api.instagram.com/oauth/authorize/";
